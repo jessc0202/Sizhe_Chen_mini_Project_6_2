@@ -38,7 +38,7 @@ def query():
             for row in result:
                 print(row)
             
-    return "query successful"
+    
 
 
 if __name__ == "__main__":
