@@ -60,7 +60,8 @@ def load(dataset="candy-data.csv"):
                     cursor.execute(insert_query, row)
 
                 connection.commit()
-    
+    return "db loaded or already loaded"
+
 
 if __name__ == "__main__":
     load()
